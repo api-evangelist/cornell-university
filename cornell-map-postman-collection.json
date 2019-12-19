@@ -1,0 +1,82 @@
+{
+    "id": "7c36902dbdd600404277ce15423a8f69",
+    "name": "Cornell Map",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "d393a9aea2c2ed1a8f90701b92e3dc76",
+            "name": "Get Cornell Locations",
+            "url": "http:\/\/www.cornell.edu\/about\/maps\/locations.cfm",
+            "description": "Return information about all available Cornell locations",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "returnJSON",
+                    "description": "1 if JSON should be returned",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "7c36902dbdd600404277ce15423a8f69",
+            "rawModeData": ""
+        },
+        {
+            "id": "e4226644bd87f6a02e7969461da726ed",
+            "name": "Get Cornell Map Items",
+            "url": "http:\/\/www.cornell.edu\/about\/maps\/overlay-items.cfm",
+            "description": "Return all location information of the specified layer",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "Layers: * `AllGender` - All Gender Bathrooms * `BigRedBikes` - Bike Share Stations * `Bikes` - Bike Racks * `Blue` - Blue Lights * `Carshare` - Ithaca Carshare * `Charging` - Electric Car Charging Stations * `FeaturedEvents` - Featured Cornell Events * `FoodServices` - Eateries (i.e. dining halls, cafes)  * `Lactation` - Lactation rooms * `Overlays` - Miscellaneous (information booths, campus-to-campus stops, diaper changing stations, wellness paths) * `Parkmobile` - Pay-by-cell Parking * `Susta",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "clearCache",
+                    "description": "1 if cache should be cleared",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "7c36902dbdd600404277ce15423a8f69",
+            "rawModeData": ""
+        }
+    ]
+}
