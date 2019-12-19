@@ -1,0 +1,77 @@
+{
+    "name": "Cornell University",
+    "description": "<p>Cornell University has a pretty interesting eBird API. I do not see much else of APIs out of the institution, but will be keeping an eye out.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/cornell-university-logo.png",
+    "tags": [
+        "api provider",
+        "have api",
+        "have swagger",
+        "universities",
+        "university science"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cornell-university\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Cornell University",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/cornell-university-logo.png",
+            "humanURL": "http:\/\/law.cornell.edu",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/cornell-university-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/cornell-university.json"
+                }
+            ]
+        },
+        {
+            "name": "Cornell Map",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/cornell-university-logo.png",
+            "humanURL": "http:\/\/law.cornell.edu",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/cornell-map-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/cornell-map.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Developers",
+            "url": "https:\/\/confluence.cornell.edu\/display\/CLOISAPI\/Home"
+        },
+        {
+            "type": "Curated Source",
+            "url": "https:\/\/www.law.cornell.edu\/cfr\/text\/45\/164.502"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/law.cornell.edu"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/18875-2019-09-04-04-32-31.json"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.cornell.edu\/"
+        }
+    ]
+}
