@@ -1,5 +1,5 @@
 {
-    "id": "7c36902dbdd600404277ce15423a8f69",
+    "id": "0fb5800c407a5cc61e382353645bc388",
     "name": "Cornell Map",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "d393a9aea2c2ed1a8f90701b92e3dc76",
+            "id": "78e760525a2d06fdd66c47ccfa862c12",
             "name": "Get Cornell Locations",
             "url": "http:\/\/www.cornell.edu\/about\/maps\/locations.cfm",
             "description": "Return information about all available Cornell locations",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "7c36902dbdd600404277ce15423a8f69",
+            "collectionId": "0fb5800c407a5cc61e382353645bc388",
             "rawModeData": ""
         },
         {
-            "id": "e4226644bd87f6a02e7969461da726ed",
+            "id": "5e2ac0df98ef2bb37d56018df9070e40",
             "name": "Get Cornell Map Items",
             "url": "http:\/\/www.cornell.edu\/about\/maps\/overlay-items.cfm",
             "description": "Return all location information of the specified layer",
@@ -75,7 +75,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "7c36902dbdd600404277ce15423a8f69",
+            "collectionId": "0fb5800c407a5cc61e382353645bc388",
             "rawModeData": ""
         }
     ]
