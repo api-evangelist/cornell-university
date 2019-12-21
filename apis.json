@@ -9,8 +9,8 @@
         "universities",
         "university science"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-20",
+    "modified": "2019-12-20",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cornell-university\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -24,11 +24,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/cornell-university-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/cornell-university.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/cornell-university.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cornell-university\/master\/cornell-university-openapi.json"
                 }
             ]
         },
@@ -42,17 +42,21 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/cornell-map-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/cornell-map.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/cornell-map.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cornell-university\/master\/cornell-map-openapi.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Developers",
             "url": "https:\/\/confluence.cornell.edu\/display\/CLOISAPI\/Home"
